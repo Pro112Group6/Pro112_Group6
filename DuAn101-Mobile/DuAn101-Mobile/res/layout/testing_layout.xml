@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thuốc bắc"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/bakichtim" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Ba Kích Tím khô : ba kích vị hơi cay, tính ấm, vào kinh thận. Có tác dụng ôn thận, trợ dương, mạnh gân cốt, trừ phong thấp. Công dụng tăng cường khả năng giao hợp, đặc biệt đối với nam giới yếu về mặt này…" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/timkho" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Ba Kích Tím tươi : ba kích vị hơi cay, tính ấm, vào kinh thận. Có tác dụng ôn thận, trợ dương, mạnh gân cốt, trừ phong thấp. Công dụng tăng cường khả năng giao hợp, đặc biệt đối với nam giới yếu về mặt này…" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/banchilien" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Bán Chi Liên : là loại cỏ đa niên thân 4 góc, bò ở gốc, mảnh ở ngọn, cao 0,15 – 0,20m. Lá mọc đối, lá trên không cuống, lá dưới có cuống mảnh, phiến lá hình trứng hẹp đến hình mũi mác, dài 1 – 2cm, toàn mép môi trên mang một cái khiên rụng sớm, môi dưới tồn tại" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thuốc nam"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/atiso" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Actiso : Actiso từ lâu được coi là “thần dược” của gan với công dụng làm sạch các độc tố trong gan. Cynarin và Silymarin là hai hoạt chất chống oxy hóa với khả năng phục hồi chức năng gan hữu hiệu được tìm thấy rất nhiều trong rễ, thân, lá và hoa Actiso. " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/biensuc" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Biển súc: loại cây này được biết nhiều với tên gọi rau đắng, sử dụng trong nhiều bài thuốc dân gian chữa trị các bệnh nhiễm trùng, mụn nhọt, giải độc gan…" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thuốc tây"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/bimbim" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="bìm bìm : Bìm bìm là một loại hoa leo, được trồng làm cảnh ở khá nhiều nơi. Tuy nhiên ít người biết đến công dụng chữa bệnh hữu hiệu của loại cây này. Hoa bìm bìm chứa nhiều Glucosid là Pharbitin, có tác dụng nhuận tràng, thông tiểu, sát trùng." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="98dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/raumade" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Theo Đông y, cây mã đề có vị ngọt, tính lạnh, có tác dụng chữa các bệnh đau mắt đỏ, viêm gan, mụn nhọt. Những người bị nóng gan mật và nổi mụn nhọt có thể lấy một nắm mã đề tươi rửa sạch, nấu với một miếng gan lợn to bằng bàn tay -hai thứ thái nhỏ, cho mắm muối vừa ăn để dùng vào buổi cơm trưa, dùng liên tục 6 – 7 ngày sẽ khỏi." />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thuốc hổ trợ chức năng"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

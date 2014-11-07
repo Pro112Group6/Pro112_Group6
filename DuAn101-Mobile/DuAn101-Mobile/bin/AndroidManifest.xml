@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fpoly.group6"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/healt"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Test1"
+            android:label="@string/title_activity_test1" >
+        </activity>
+        <activity
+            android:name=".ThuocNam"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_thuoc_nam"
+            android:parentActivityName=".ThuocNam" >
+        </activity>
+        <activity
+            android:name=".ThuocBac"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_thuoc_bac"
+            android:parentActivityName=".ThuocBac" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".ThuocTay"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_thuoc_tay"
+            android:parentActivityName=".ThuocTay" >
+        </activity>
+        <activity
+            android:name=".GioiThieu"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_gioi_thieu"
+            android:parentActivityName=".GioiThieu" >
+        </activity>
+        <activity
+            android:name=".ManagerAdmin"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_manager_admin"
+            android:parentActivityName=".ManagerAdmin" >
+        </activity>
+        <activity
+            android:name=".ThongTin"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_thong_tin"
+            android:parentActivityName=".ThongTin" >
+        </activity>
+        <activity
+            android:name=".GopY"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_gop_y"
+            android:parentActivityName=".GopY" >
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:icon="@drawable/healt"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tra cứu thuốc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_test1">Trang chủ</string>
+    <string name="title_activity_thuoc_nam">Danh mục thuốc nam</string>
+    <string name="title_activity_thuoc_bac">Danh mục thuốc bắc</string>
+    <string name="title_activity_thuoc_tay">Danh mục thuốc tây</string>
+    <string name="title_activity_gioi_thieu">Giới thiệu</string>
+    <string name="title_activity_manager_admin">Admin Manager</string>
+    <string name="title_activity_thong_tin">Thông tin</string>
+    <string name="title_activity_gop_y">Góp ý</string>
+    <string name="action_search">Sarch</string>
+    <string name="search_hint">Tìm kiếm</string>
+    <string name="title_activity_admin_login">Admin</string>
+
+</resources>
